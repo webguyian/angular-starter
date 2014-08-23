@@ -1,0 +1,45 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+  font: 400 16px/1.2 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.full-width {
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  max-width: 55em;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 1em 0 0.5em;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+.hero-unit {
+  min-height: 400px;
+  margin-top: 8em;
+  padding: 1em;
+  background-color: #E9E9E9;
+  border: 1px solid #DDD;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 5em;
+}
+
+.lead {
+  font-size: 2.5em;
+  font-weight: 300;
+}
